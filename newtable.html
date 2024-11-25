@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Table Design</title>
+    <style>
+        table,
+        th,
+        td{
+            border: 2px solid;
+            border-collapse: collapse;
+        }
+        table{
+            width: 70%;
+        }
+        th{
+            background-color: rgb(12, 240, 228);
+        }
+        #a{
+            background-color: rgb(14, 231, 14);
+        }
+        #b{
+            background-color:rgb(223, 223, 13);
+        }
+
+        /* Caption Alignment doesn't worked */
+
+        caption,
+        table,
+        th,
+        td{
+            text-align: center;
+        }
+    </style>
+</head>
+<body style="background-color:yellowgreen;">
+
+    <Caption>Result of the Students</Caption>
+    <table>
+        <tr>
+            <th rowspan="2"><i class="fa-regular fa-user"></i> Name</th>
+            <th colspan="2"><i class="fa-regular fa-address-book"></i> Contacts</th>
+            <th colspan="4">Subject wise marks</th>
+            <th colspan="3"><i class="fa-regular fa-comment"></i> Comments</th>
+            </tr>
+            <tr>
+                <th><i class="fa-solid fa-phone"></i> Phone</th>
+                <th><i class="fa-regular fa-envelope"></i> Email</th>
+                <th>Bangal</th>
+                <th>English</th>
+                <th>Math</th>
+                <th>Drawing</th>
+                <th><i class="fa-regular fa-thumbs-up"></i> Very Good</th>
+                <th><i class="fa-regular fa-hourglass-half"></i> Keep It Up</th>
+                <th><i class="fa-regular fa-thumbs-down"></i> Bad</th>
+            </tr>
+            <tr id="a">
+                <td>Hasan</td>
+                <td>0567578054</td>
+                <td></td>
+                <td>81</td>
+                <td>65</td>
+                <td>56</td>
+                <td>90</td>
+                <td></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td></td>
+            </tr>
+            <tr id="b">
+                <td>Jamil</td>
+                <td>0376178054</td>
+                <td></td>
+                <td>88</td>
+                <td>87</td>
+                <td>93</td>
+                <td>91</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr id="a">
+                <td>Karim</td>
+                <td></td>
+                <td>karim@gmail.com</td>
+                <td>45</td>
+                <td>67</td>
+                <td>56</td>
+                <td>40</td>
+                <td></td>
+                <td></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr id="b">
+                <td>Rifat</td>
+                <td>0761978054</td>
+                <td></td>
+                <td>71</td>
+                <td>55</td>
+                <td>46</td>
+                <td>50</td>
+                <td></td>
+                <td></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr id="a">
+                <td>Fahim</td>
+                <td></td>
+                <td>fahim@gmail.com</td>
+                <td>84</td>
+                <td>89</td>
+                <td>93</td>
+                <td>99</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td></td>
+                <td></td>
+            </tr>
+    </table>
+
+</body>
+</html>
